@@ -11,7 +11,7 @@
             <option value="sepia">Sepia</option>
             <option value="negative">Negative</option>
             <option value="paint">Paint</option>
-            <option value="pixel">Pixel</option>
+            <option value="pixel" disabled>Pixel</option> <!-- Pixel no funciona con gifs -->
         </select>
         <div class="card__catColor-indicator" :style="{'background-color': catColor,}"></div>
         <select class="card__catColor" v-model="catColor">
