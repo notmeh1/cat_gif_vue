@@ -1,9 +1,9 @@
 <template>
-  <CatApi/>
+  <CatApi />
 </template>
 
 <script>
-import CatApi from './CatApi'
+import CatApi from "./CatApi";
 export default {
   components: {
     CatApi,
@@ -14,7 +14,7 @@ export default {
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&display=swap");
 body {
-  background-color: #E7E0C9;
+  background-color: #e7e0c9;
   font-family: "Montserrat", sans-serif;
 }
 .container {

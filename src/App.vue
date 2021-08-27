@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-      <ThemeBackground/>
+    <ThemeBackground />
   </div>
 </template>
 
 <script>
-import ThemeBackground from './components/ThemeBackground'
+import ThemeBackground from "./components/ThemeBackground";
 
 export default {
   name: "App",
   components: {
-    ThemeBackground
+    ThemeBackground,
   },
 };
 </script>
